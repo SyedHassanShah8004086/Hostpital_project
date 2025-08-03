@@ -1,0 +1,217 @@
+.body{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+.navbar {
+   box-shadow: 0 4px 4px -2px rgba(0,0,0,0.1); /* bottom shadow only */
+}
+
+.nav_body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  background: #F7F8FB !important;
+	border:1px solid #ccc;
+}
+.navbar-brand img {
+    height: 90px !important;
+    width: 130px !important;
+}
+
+.navbar-brand img {
+  max-height: 65px;
+  height: auto;
+  width: auto;
+  height:100px; width:130px; object-fit:contain; font-weight: bold;
+   display:inline-block;
+   align-items:middle;
+   align-items: center;
+}
+
+.scrollable-dropdown {
+  max-height: 500px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.dropdown-menu li a {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 200;
+}
+.login{
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  list-style: none;
+  border: 1px solid #ccc;
+ color: #120C61; 
+  padding:10px;
+  margin: 5px;
+}
+.join_as_doctor{
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  list-style: none;
+  border: 1px solid #ccc;
+ color:orange; 
+  padding:10px;
+  margin: 5px;
+  margin-right: 30px;
+}
+
+/* header carousel css */
+
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(to right, #70453c, #0a1c72);
+  padding: 50px;
+  border-radius: 30px;
+  color: white;
+  max-width: 1500px;
+  height: 450px;
+  margin: 20px auto;
+
+}
+
+.banner-text {
+  max-width: 550px;
+ 
+}
+
+.banner-text h1 {
+  font-size: 50px;
+  font-weight: 530;
+}
+
+.banner-text .highlight {
+  color: #fbae17;
+  font-weight: bold;
+}
+
+.badge {
+  display: inline-block;
+  background: #8b5d4f;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-size: 20px;
+  margin: 40px 0;
+}
+
+.search-bar {
+  display: flex;
+  background: white;
+  border-radius: 6px;
+  overflow: hidden;
+  width: 980px;
+  padding:5px;
+}
+
+.search-bar input {
+  border: none;
+  padding: 12px;
+  outline: none;
+  font-size: 25px;
+
+}
+
+.search-bar button {
+  background: #f59f00;
+  border: none;
+  padding: 0 25px;
+  cursor: pointer;
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+  border-radius: 5px;
+}
+
+.banner img {
+  margin-top: 10px;
+  max-width: 420px;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+.box{
+  background-color: bg-white;
+  border:1px solid #ccc;
+  padding: 20px;
+  border-radius: 20px;
+text-align: center;
+}
+
+/*card css */
+
+    .card-container {
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
+        border: 1px solid black;
+    }
+
+    .card {
+      margin: 10px;
+        background: white;
+        border-radius: 30px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.08);
+        width: 300px;
+        height: 360px;
+        overflow: hidden;
+        text-align: center;
+        transition: transform 0.2s;
+        
+    }
+
+    .card:hover {
+        transform: translateY(-5px);
+    }
+
+    .card img {
+        width: 100%;
+        height: 220px;
+        object-fit: contain;
+    }
+
+    .status-bar {
+        background: #f59f00;
+        color: white;
+        font-size: 16px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .status-bar span {
+        color: #00ff84;
+        font-size: 20px;
+        margin-right: 6px;
+    }
+
+    .title {
+        font-size: 20px;
+        font-weight: bold;
+        margin: 10px 0 5px;
+    }
+
+    .description {
+        font-size: 18px;
+        color: #555;
+        padding: 0 10px 15px;
+    }
+
+    .blue-btn {
+        color:black;
+        padding: 6px;
+        display: block;
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: bold;
+      }
